@@ -17,7 +17,7 @@ def hash_senha(senha):
 
 def main():
     
-    caminho_arquivo = input("Digite o caminho do arquivo de texto: ")
+    caminho_arquivo = r"./password.txt"
 
     senha = hash_senha(ler_arquivo_texto(caminho_arquivo))    
 
