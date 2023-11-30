@@ -21,8 +21,7 @@ def main():
 
     senha = hash_senha(ler_arquivo_texto(caminho_arquivo))    
 
-    senha_tentativa = getpass.getpass("Digite senha: ")
-
+    senha_tentativa = "1234"
     if hash_senha(senha_tentativa) == senha:
         print("\nSenha correta!")
         
